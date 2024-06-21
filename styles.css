@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+body{
+    padding: 5vh 30vw;
+}
+
+iframe{
+    border-radius: 12px;
+}
+
+body .infographic{
+    width: 100%;
+}
+
+img.legend{
+    width: 100%;
+}
+
+h1{
+    font-weight: bolder;
+    margin-bottom: 12px;
+}
+
+p{
+    opacity: 64%;
+}
+
+h2{
+    font-weight: bolder;
+    margin-top: 20px; 
+    margin-bottom: 16px; 
+}
+
+h3{
+    margin-top: 12px; 
+    margin-bottom: 8px; 
+}
+
+p.citation{
+    margin-bottom: 16px;
+    font-size: 12px;
+}
+
+p.caption{
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    margin-top: 8px;
+}
+
+@media (max-width: 1200px) {
+    body{
+        padding: 5vh 20vw;
+    }
+}
+
+@media (max-width: 800px) {
+    body{
+        padding: 5vh 10vw;
+    }
+}

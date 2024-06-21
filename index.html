@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poverty and Chronic Absenteeism in NYC</title>
+    <link rel="shortcut icon" href="Favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1>Poverty and Chronic Absenteeism in New York City</h1>
+    <p>By Gaurav Shah (2089095)</p>
+    <br>
+    <iframe width='100%' height='400px' src="https://api.mapbox.com/styles/v1/gshah123/clxo7ti3w02sk01qjc7uu5yvz.html?title=false&access_token=pk.eyJ1IjoiZ3NoYWgxMjMiLCJhIjoiY2x3djBsajh2MG00OTJpb21wNTJsNzY0bCJ9.xlZQBpYa9yrPfmGaN3Y0iA&zoomwheel=false#9.55/40.6638/-73.9479" title="NYC-copy" style="border:none;"></iframe>
+    <br>
+    <img src="./Legend.png" alt="Legend" class="legend">
+    <br><br>
+    <h2>Infographic</h2>
+    <img src="./Infographic.png" alt="Infographic" class="infographic">
+    <p class="caption">Infographic depicting the relationship between <br> poverty and chronic absenteeism in New York City</p>
+    <br><br>
+    <h2>Approach to the Assignment</h2>
+    <p>For this assignment, I focused on analyzing the correlation between chronic absenteeism and poverty levels in New
+        York City schools. The extensive datasets maintained by New York City, which include demographic information and
+        attendance records for schools, provided a rich source of data for this analysis. My primary objective was to
+        determine if there was a significant correlation between the absenteeism rates and the economic conditions of
+        the students, under the assumption that economic factors significantly impact student attendance and
+        performance.</p>
+
+    <h2>Data Selection and Preparation</h2>
+    <p>The datasets I chose included comprehensive demographic information and attendance records for New York City
+        schools. Initially, the data required substantial cleaning. Some reported absenteeism rates were unrealistically
+        high, exceeding 95%, which could skew the analysis. I adjusted these anomalies to 100% to enable accurate
+        aggregate and average calculations. Additionally, some data was missing, particularly in absenteeism records,
+        which I had to omit after failing to locate supplementary data from other sources. Despite these limitations, I
+        managed to clean and compile data for 1,527 schools.</p>
+
+    <h2>Data Analysis and Insights</h2>
+    <p>Once the data was cleaned, I compiled it into a pivot table to generate insights and created visual
+        representations, including a scatter plot, to conduct a correlation analysis. This analysis, detailed in the
+        "Pivot Table_PLAYGROUND" tab of the attached Excel file, revealed a correlation coefficient of 0.529352904
+        between chronic absenteeism and poverty rates. This moderate positive correlation indicates that higher poverty
+        levels are associated with higher rates of chronic absenteeism, although other factors may also influence this
+        relationship.
+        <br><br>
+        Further analysis by district and borough provided deeper insights. Certain districts, such as District 26 in
+        Queens, exhibited both low poverty and low absenteeism rates (12.57% absenteeism and 51.52% poverty).
+        Conversely, District 9 in the Bronx had the highest poverty rate (95.21%) and correspondingly high absenteeism
+        (34.5%). District 5 in Manhattan also showed significant absenteeism (50.11%) with a moderately high poverty
+        rate (51.52%).
+        <br><br>
+        A noteworthy outlier was District 75, which serves students with significant challenges, such as autism spectrum
+        disorders and emotional disabilities. This district had the highest chronic absenteeism rate (54.9%) but was
+        excluded from geographical maps as its schools are dispersed across various districts.
+    </p>
+    <h2>Creative Decisions and Communication</h2>
+    <p>In crafting the infographic and map, my goal was to communicate these insights clearly and effectively. I used a choropleth map to visualize the geographical distribution of absenteeism and poverty rates across districts, enabling easy identification of hotspots and trends. Bar charts and scatter plots were used to depict the correlation and comparative analysis of different districts and boroughs. These visualizations were designed to be intuitive and engaging, ensuring that the complex relationships between variables were accessible to a broad audience.</p>
+    <h2>Conclusion and Implications</h2>
+    <p>
+        The findings underscore the importance of considering economic factors when addressing chronic absenteeism in New York City schools. The moderate correlation suggests that poverty reduction programs could potentially alleviate absenteeism rates. However, the data also highlights that other factors, such as the specific needs of students in District 75, play a crucial role. Therefore, interventions should be multifaceted, addressing both economic conditions and the unique challenges faced by different student populations.
+<br>
+This statement and the accompanying visualizations reflect a comprehensive and professional approach to the assignment. By effectively organizing and presenting the data, I aimed to provide clear and actionable insights that align with the expectations of a professional audience.
+    </p>
+<br><br><br>
+    <h1>Citations</h1>
+    <h3>Data sources contained in the spreadsheet:</h3>
+
+        <p class="citation">New York City Department of Education, "2016-17 - 2020-21 School End-of-Year Attendance and Chronic Absenteeism Data", New York City Department of Education, May. 10, 2022. [Online]. Available: https://data.cityofnewyork.us/Education/2016-17-2020-21-School-End-of-Year-Attendance-and-/gqq2-hgxd/about_data</p>
+        <p class="citation">New York City Department of Education, "2017-18 - 2021-22 Demographic Snapshot", New York City Department of Education, Jun. 16, 2022. [Online]. Available: https://data.cityofnewyork.us/Education/2017-18-2021-22-Demographic-Snapshot/c7ru-d68s/about_data</p>
+        <p class="citation">NYC Public Schools, "What is a DBN (District Borough Number)?", NYC Public Schools, Dec. 13, 2023. [Online]. Available: https://teachnyc.zendesk.com/hc/en-us/articles/360053601831-What-is-a-DBN-District-Borough-Number</p>
+    
+    <h3>Additional data sources used to create the map:</h3>
+<p class="citation">New York City Department of Education, "School Districts", New York City Department of Education, Accessed Jun. 6, 2024. [Online]. Available: https://data.cityofnewyork.us/Education/School-Districts/r8nu-ymqj</p>
+
+    <h3>Additional data sources used to create the infographic</h3>
+<p class="citation">New York City Department of Education, "District 75", New York City Department of Education, Accessed Jun. 20, 2024. [Online]. Available: https://www.schools.nyc.gov/learning/special-education/school-settings/district-75</p>
+
+<p class="citation">All images used in the infographic were created by Gaurav Shah. No external images or icon packs were used in this assignment.</p>
+</body>
+
+</html>
